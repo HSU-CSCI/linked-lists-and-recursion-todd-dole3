@@ -42,7 +42,9 @@ public class CircularLL<E> {
      * @return {@code true} if the list is empty, otherwise {@code false}
      */
     public boolean isEmpty() {
-        // TODO - Complete this method
+        // Done
+        if (head==null) return true;
+        return false;
     }
 
     /**
